@@ -1,0 +1,88 @@
+body{
+  background-color: rgb(224, 189, 232);
+  color: black;
+  background-image: url("airline.jpg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100pc 50pc;
+  
+}
+
+
+
+#signup-div{
+  border: 3px solid  blueviolet;
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  padding: 100px 100px 100px 100px;
+  margin-top: 10%;
+  margin-right: 10%;
+  background-color: pink;
+}
+
+
+
+
+ul#horizontal-list {
+  list-style: none;
+  
+  
+}
+
+
+
+ul#horizontal-list li{
+  display: inline;
+  color: white;
+  font-size: 24px;
+  margin: 0%;
+}
+
+ul li a#logout{
+  margin-right: 20px;
+  float: right;
+  text-decoration: none;
+}
+
+ul li a#flights{
+  text-decoration: none;
+  align-items: center;
+}
+
+
+.flight-list {
+  text-align: center;
+  margin-top: 20px;
+  background-color: lightcyan;
+}
+
+.flight-list ul li {
+  display: inline-block;
+  width: 120px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.flight-list ul{
+  margin: 0;
+}
+
+
+
+ul li a#customers{
+  text-decoration: none;
+  align-items: center;
+}
+
+
+.customer-list {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.customer-list ul li {
+  display: inline-block;
+  width: 100px;
+  border: 1px solid maroon;
+  padding: 5px;
+}
