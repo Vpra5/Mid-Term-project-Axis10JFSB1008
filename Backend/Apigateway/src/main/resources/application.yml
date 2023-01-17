@@ -1,0 +1,31 @@
+server:
+  port: 9999
+
+spring:
+  application:
+    name: API_GATEWAY
+  cloud:
+    gateway:
+      routes:
+      - id: CUSTOMER-SERVICE
+        uri: 
+            lb://CUSTOMERSERVICE
+        predicates:
+        - Path=/api/cust/**
+      - id: FLIGHT-SERVICE
+        uri: 
+            lb://FLIGHT-SERVICE
+        predicates:
+        - Path=/api/flight/**
+     
+      - id: FLIGHT-LOGIN-SERVICE
+        uri: 
+            lb://FLIGHT-LOGIN-SERVICE
+        predicates:
+        - Path=/flight/user/**
+        
+      
+        
+
+
+
